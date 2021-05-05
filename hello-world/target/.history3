@@ -1,4 +1,0 @@
-1620165487595:~run
-1620165581586:util.Properties.versionString
-1620165589714:import util
-1620165615304:def max(x: Int, y: Int) = if x > y then x else y
