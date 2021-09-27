@@ -1,18 +1,23 @@
-def renderSudoku(grid: Array[Array[Int]]) = {
-  val rowSeparator = "\n+-------+-------+-------+\n"
-  grid
-    .map(row =>
-      row
-        .map(i => if (i == 0) " " else i.toString)
-        .grouped(3)
-        .map(_.mkString(" "))
-        .mkString("| ", " | ", " |")
-    )
-    .grouped(3)
-    .map(_.mkString("\n"))
-    .mkString(rowSeparator, rowSeparator, rowSeparator)
-
+def renderSudoku(grid: Array[Array[Int]]): Unit = {
+  val prettyLine = "+-------+-------+-------+"
+  var rowCounter = 0
+  for (currentRow <- grid) {
+    if (rowCounter % 3 == 0) {
+      println(prettyLine)
+    }
+    val rowGrouped = currentRow.grouped(3).toArray
+    var printableString = ""
+    for (triplet <- rowGrouped) {
+      printableString = triplet.mkString(" ").replace("0", " ")
+      print(s"| $printableString ")
+    }
+    print("|")
+    println()
+    rowCounter += 1
+  }
+  println(prettyLine)
 }
+
 
 val grid = Array(
   Array(3, 1, 6, 5, 7, 8, 4, 9, 2),
