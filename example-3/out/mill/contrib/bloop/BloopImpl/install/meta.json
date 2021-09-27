@@ -1,0 +1,14 @@
+{
+    "value": [
+        [
+            "foo",
+            "ref:ac1d4867:/Users/avirals/dev/learning-scala/example-3/.bloop/foo.json"
+        ],
+        [
+            "foo.test",
+            "ref:9345f9db:/Users/avirals/dev/learning-scala/example-3/.bloop/foo.test.json"
+        ]
+    ],
+    "valueHash": 417158305,
+    "inputsHash": -1020141794
+}

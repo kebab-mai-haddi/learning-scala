@@ -1,0 +1,9 @@
+{
+    "value": [
+        "ref:c984eca8:/Users/avirals/dev/learning-scala/example-3/foo/resources",
+        "ref:6a84c34c:/Users/avirals/dev/learning-scala/example-3/out/foo/compile/dest/classes",
+        "qref:c17369e5:/Users/avirals/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
+    ],
+    "valueHash": 1492913048,
+    "inputsHash": -453270476
+}

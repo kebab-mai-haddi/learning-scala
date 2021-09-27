@@ -1,0 +1,12 @@
+{
+    "value": {
+        "foo": [
+            "/Users/avirals/dev/learning-scala/example-3/foo/src"
+        ],
+        "foo.test": [
+            "/Users/avirals/dev/learning-scala/example-3/foo/test/src"
+        ]
+    },
+    "valueHash": -706429994,
+    "inputsHash": 1737961219
+}

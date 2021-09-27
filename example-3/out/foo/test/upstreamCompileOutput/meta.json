@@ -1,0 +1,10 @@
+{
+    "value": [
+        {
+            "analysisFile": "/Users/avirals/dev/learning-scala/example-3/out/foo/compile/dest/zinc",
+            "classes": "ref:6a84c34c:/Users/avirals/dev/learning-scala/example-3/out/foo/compile/dest/classes"
+        }
+    ],
+    "valueHash": 1189107845,
+    "inputsHash": -1429992659
+}

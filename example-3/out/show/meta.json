@@ -1,0 +1,13 @@
+{
+    "value": {
+        "value": {
+            
+        },
+        "watched": [
+            "ref:c984eca8:/Users/avirals/dev/learning-scala/example-3/foo/resources",
+            "ref:9b727646:/Users/avirals/dev/learning-scala/example-3/foo/src"
+        ]
+    },
+    "valueHash": 1081963954,
+    "inputsHash": -1705455469
+}
